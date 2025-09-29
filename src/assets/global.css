@@ -1,0 +1,22 @@
+@import url("./normalize.css");
+@import url("./variables.css");
+@import url("./reset.css");
+
+@font-face {
+	font-family: 'Source Sans 3 Regular';
+	src: local("Source Sans 3 Regular"), local("SourceSans3-Rugular"), url("./fonts/AnyConv.com__SourceSans3-Regular.woff2") format('woff2');
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Source Sans 3 SemiBold';
+	src: local("Source Sans 3 SemiBold"), local("SourceSans3-Semibold"), url("./fonts/AnyConv.com__SourceSans3-SemiBold.woff2") format('woff2');
+	font-weight: semi-bold;
+}
+
+@font-face {
+	font-family: 'Source Sans 3 Bold';
+	src: local("Source Sans 3 Bold"), local("SourceSans3-Bold"), url("./fonts/AnyConv.com__SourceSans3-Bold.woff2") format('woff2');
+	font-weight: bold;
+}
+

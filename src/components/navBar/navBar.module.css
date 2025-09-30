@@ -1,0 +1,22 @@
+.navBar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 204px;
+	height: 510px;
+	background-color: var(--netural-300);
+}
+
+.navBar__menu {
+	margin: 24px 16px;
+}
+
+.navBar__button {
+	width: 172px;
+	background-color: var(--netural-800);
+}
+
+.navBar__image {
+	fill: var(--netural-0);
+	stroke: var(--netural-0);
+}

@@ -1,12 +1,11 @@
 import React from 'react';
 import style from './button.module.css';
 
-const Button = ({children}) => {
+const Button = ({newStyle, children}) => {
   return (
     <div className={style.button}>
-      <button className={style.button__element}>
-        <img src='../../../public/create.svg' alt='' />
-        <span className={style.button__text}>{children}</span>
+      <button className={`${style.button__element} ${newStyle || ''}`}>
+        {children}
       </button>
     </div>
   );

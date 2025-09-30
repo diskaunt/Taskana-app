@@ -7,7 +7,10 @@ const Header = () => {
   return (
     <div className={style.header}>
       <Logo />
-      <Button>Создать</Button>
+      <Button newStyle={style.header__button}>
+        <img src='../../../public/create.svg' alt='' />
+        <span>Создать</span>
+      </Button>
     </div>
   );
 };

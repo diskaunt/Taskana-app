@@ -1,0 +1,10 @@
+.mainContainer {
+	padding: 24px;
+	flex-grow: 1
+}
+
+.mainContainer__title {
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 40px;
+}

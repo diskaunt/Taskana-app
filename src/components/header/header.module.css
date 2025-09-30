@@ -6,3 +6,8 @@
 	height: 64px;
 	background: var(--base-black)
 }
+
+.header__button {
+	width: 118px;
+	background-color: var(--primary-400);
+}

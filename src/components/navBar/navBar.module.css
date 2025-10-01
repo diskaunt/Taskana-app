@@ -1,19 +1,37 @@
 .navBar {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 	width: 204px;
-	height: 510px;
+	height: 100%;
 	background-color: var(--netural-300);
+	overflow: auto;
 }
 
 .navBar__menu {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	margin: 24px 16px;
 }
 
-.navBar__button {
+.navBar__item {
 	width: 172px;
+	height: 40px;
+	border-radius: 8px;
 	background-color: var(--netural-800);
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+	font-family: 'Source Sans 3', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.navBar__item_content {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	gap: 11px;
+	justify-content: center;
+	align-items: center;
+	color: var(--netural-0);
 }
 
 .navBar__image {

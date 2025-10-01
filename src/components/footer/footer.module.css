@@ -1,28 +1,10 @@
 .footer {
-	display: flex;
-	flex-direction: column;
-	gap: 24px;
 	width: 441px;
-	height: 212px;
-	padding: 24px;
+	padding: 16px 24px;
 	margin: auto;
 }
 
-.footer__title {
-	font-size: 32px;
-	font-weight: 700;
-	line-height: 40px;
-}
-
-.footer__color {
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 20px;
-	color: rgba(116, 44, 255, 1);
-}
-
 .footer__text {
-	padding: 16px 24px;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 24px;

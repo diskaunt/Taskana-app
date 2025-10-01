@@ -5,7 +5,7 @@ import Content from '../../components/content/Content';
 
 const AppLayouts = () => {
   return (
-    <div className={style.container}>
+    <div className={style.appLayouts}>
       <Header />
       <Content />
     </div>

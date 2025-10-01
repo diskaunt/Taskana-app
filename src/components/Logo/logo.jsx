@@ -3,7 +3,7 @@ import style from './logo.module.css';
 const Logo = () => {
   return (
     <div className={style.logo}>
-      <img src='../../../public/logo.svg' alt='' />
+      <img src='../../../public/logo.svg' alt='Logo' />
     </div>
   );
 };

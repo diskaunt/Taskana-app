@@ -9,7 +9,7 @@
 	align-items: center;
 	flex-direction: column;
 	width: 400px;
-	height: 760px;
+	height: 100%;
 	gap: 24px;
 	background-color: var(--netural-300);
 	overflow: auto;

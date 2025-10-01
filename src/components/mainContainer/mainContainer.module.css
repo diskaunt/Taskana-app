@@ -1,6 +1,8 @@
 .mainContainer {
+	width: 100%;
+	height: calc(100% - 56px);
 	padding: 24px;
-	flex-grow: 1
+	overflow: auto;
 }
 
 .mainContainer__title {

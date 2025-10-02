@@ -1,6 +1,7 @@
 .appLayouts {
 	position: relative;
-	width: 100%;
+	width: 100svw;
+	height: 100svh;
 	min-width: 1280px;
-	height: 100vmin;
+	flex-grow: 1;
 }

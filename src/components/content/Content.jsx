@@ -6,11 +6,11 @@ import SideBar from '../sideBar/SideBar';
 
 const Content = () => {
   return (
-    <div className={style.content}>
+    <main className={style.content}>
       <NavBar />
       <IncomingTasks />
       <SideBar />
-    </div>
+    </main>
   );
 };
 

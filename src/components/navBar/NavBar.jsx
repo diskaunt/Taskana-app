@@ -1,6 +1,5 @@
 import React from 'react';
 import style from './navBar.module.css';
-import Button from '../button/Button';
 
 const NavBar = () => {
   return (

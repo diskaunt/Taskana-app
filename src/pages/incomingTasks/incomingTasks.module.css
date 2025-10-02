@@ -1,4 +1,5 @@
 .incomingTasks {
 	height: 100%;
 	flex-grow: 1;
+	background-color: var(--netural-0);
 }

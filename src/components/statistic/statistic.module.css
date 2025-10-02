@@ -1,0 +1,29 @@
+.statistic__content {
+	width: 400px;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 24px;
+	padding: 24px 0;
+	background-color: var(--netural-100);
+	overflow: auto;
+}
+
+.statistic__image {
+	width: 231px;
+	height: 168px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.statistic__text {
+	width: 352px;
+	padding: 16px 8px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: var(--neutral-800);
+	text-align: center;
+}

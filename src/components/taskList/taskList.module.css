@@ -1,8 +1,12 @@
 .taskList {
 	display: flex;
+	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	gap: 40px;
+	width: 100%;
+	margin-top: 24px;
+	flex-grow: 1;
 }
 
 .taskList__text {
@@ -10,7 +14,6 @@
 	flex-direction: column;
 	align-items: center;
 	gap: 16px;
-	margin-top: 60px;
 }
 
 .taskList__title {
@@ -27,4 +30,5 @@
 
 .taskList__image {
  width: 463px;
+ height: 319px;
 }

@@ -5,13 +5,13 @@ import style from './header.module.css';
 
 const Header = () => {
   return (
-    <div className={style.header}>
+    <header className={style.header}>
       <Logo />
       <Button newStyle={style.header__button}>
         <img src='../../../public/create.svg' alt='' />
         <span>Создать</span>
       </Button>
-    </div>
+    </header>
   );
 };
 

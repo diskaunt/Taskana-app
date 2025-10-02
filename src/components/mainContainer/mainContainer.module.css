@@ -1,13 +1,18 @@
 .mainContainer {
+	position: relative;
 	width: 100%;
 	height: calc(100% - 56px);
 	display: flex;
 	flex-direction: column;
-	padding: 24px;
 	overflow: auto;
 }
 
 .mainContainer__title {
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	padding: 24px;
+	background-color: var(--netural-0);
 	font-size: 32px;
 	font-weight: 700;
 	line-height: 40px;

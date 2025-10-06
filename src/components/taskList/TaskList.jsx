@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './taskList.module.css';
+import Illustration from '../illustration/Illustration';
 
 const TaskList = () => {
   return (
@@ -12,11 +13,7 @@ const TaskList = () => {
           Отличная работа! Ты&nbsp;большой молодец!
         </p>
       </div>
-      <img
-        className={style.taskList__image}
-        src='../../../public/taskList.svg'
-        alt=''
-      />
+      <Illustration name={'EmptyTask'} />
     </div>
   );
 };

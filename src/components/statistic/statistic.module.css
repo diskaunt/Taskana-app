@@ -1,13 +1,14 @@
 .statistic__content {
 	width: 400px;
 	height: 100%;
+	min-height: max-content;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	gap: 24px;
-	padding: 24px 0;
-	background-color: var(--netural-100);
+	padding: 24px;;
+	background-color: var(--neutral-100);
 	overflow: auto;
 }
 

@@ -12,7 +12,8 @@
 	top: 0;
 	z-index: 1;
 	padding: 24px;
-	background-color: var(--netural-0);
+	background-color: var(--neutral-0);
+	color: var(--neutral-800);
 	font-size: 32px;
 	font-weight: 700;
 	line-height: 40px;

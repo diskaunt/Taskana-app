@@ -1,16 +1,21 @@
 import React from 'react';
 import Button from '../button/Button';
-import Logo from '../logo/Logo';
 import style from './header.module.css';
+import Logo from '../logo/Logo';
+import Icon from '../icon/Icon';
+import ThemeSwitcher from '../themeSwitcher/ThemeSwitcher';
 
 const Header = () => {
   return (
     <header className={style.header}>
       <Logo />
-      <Button newStyle={style.header__button}>
-        <img src='../../../public/create.svg' alt='' />
-        <span>Создать</span>
-      </Button>
+      <div className={style.header__actions}>
+        <Button newStyle={style.header__button}>
+          <Icon name={'Create'} />
+          <span>Создать</span>
+        </Button>
+        <ThemeSwitcher/>
+      </div>
     </header>
   );
 };

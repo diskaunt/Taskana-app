@@ -1,8 +1,8 @@
 .navBar {
 	width: 204px;
 	height: 100%;
-	background-color: var(--netural-100);
-	border-right: 1px solid var(--netural-300);
+	background-color: var(--neutral-100);
+	border-right: 1px solid var(--neutral-300);
 	overflow: auto;
 }
 
@@ -16,26 +16,35 @@
 .navBar__item {
 	width: 172px;
 	height: 40px;
-	border-radius: 8px;
-	background-color: var(--netural-800);
-	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 	font-family: 'Source Sans 3', sans-serif;
 	font-weight: 600;
 	font-size: 16px;
 	line-height: 24px;
 }
 
-.navBar__item_content {
+.navBar__content {
 	width: 100%;
 	height: 100%;
 	display: flex;
-	gap: 8px;
 	align-items: center;
+	gap: 8px;
 	padding: 8px;
-	color: var(--netural-0);
+	border-radius: 8px;
+	background-color: var(--neutral-800);
+	box-shadow: var(--shadows-base);
+	color: var(--neutral-0);
+	fill: var(--neutral-0);
+	transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out,
+		box-shadow 0.2s ease-in-out, border 0.2s ease-in-out, outline 0.2s ease-in-out;
 }
 
-.navBar__image {
-	fill: var(--netural-0);
-	stroke: var(--netural-0);
+.navBar__content:hover {
+	background-color: var(--neutral-700);
+	box-shadow: var(--shadows-base-hover);
+}
+
+.navBar__content:focus {
+	background-color: var(--neutral-700);
+	border: 2px solid var(--neutral-0);
+	outline: 2px solid var(--neutral-900);
 }

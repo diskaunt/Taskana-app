@@ -1,0 +1,48 @@
+.themeSwitcher {}
+
+.themeSwitcher__content {
+	width: 76px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 4px;
+	border-radius: 8px;
+	box-shadow: var(--shadows-base);
+	background-color: var(--base-800);
+	transition: box-shadow 0.2s ease-in-out, border 0.2s ease-in-out, outline 0.2s ease-in-out;
+}
+
+.themeSwitcher__content:hover {
+	box-shadow: var(--shadows-base-hover);
+}
+
+.themeSwitcher__content:focus {
+	border: 2px solid var(--base-900);
+	box-shadow: var(--shadows-base-hover);
+	outline: 2px solid var(--primary-0);
+}
+
+.themeSwitcher__iconWrapper {
+	width: 32px;
+	height: 32px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 4px;
+	cursor: pointer;
+	fill: var(--base-600);
+	transition: fill 0.2s ease-in-out, background-color 0.2s ease-in-out,
+		box-shadow 0.2s ease-in-out;
+}
+
+.themeSwitcher__iconWrapper_action {
+	fill: var(--base-white);
+	box-shadow: var(--shadows-base);
+	background-color: var(--primary-400);
+}
+
+.themeSwitcher__content:hover .themeSwitcher__iconWrapper_action {
+	fill: var(--base-900);
+	background-color: var(--base-white);
+}

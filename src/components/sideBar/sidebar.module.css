@@ -1,5 +1,5 @@
 .sidebar {
 	height: 100%;
-	border-left: 1px solid var(--netural-300);
+	border-left: 1px solid var(--neutral-300);
 	overflow: auto;
 }

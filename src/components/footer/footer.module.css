@@ -1,6 +1,6 @@
 .footer {
 	width: 441px;
-	padding: 16px 24px;
+	padding: 16px 24px 16px 58px;
 	margin: auto;
 }
 
@@ -14,17 +14,15 @@
 .footer__text_underline {
 	color: var(--neutral-600);
 	text-decoration: underline;
-	transition: color 0.2s ease-in-out, border-redius 0.2s ease-in-out, border 0.2s ease-in-out,
-		outline 0.2s ease-in-out;
+	border-radius: 4px;
 }
 
 .footer__text_underline:hover {
 	color: var(--neutral-800);
 }
 
-.footer__text_underline:focus {
+.footer__text_underline:focus-visible {
 	color: var(--neutral-800);
+	outline-offset: 2px;
 	outline: 2px solid var(--neutral-900);
-	border: 2px solid var(--neutral-0);
-	border-radius: 4px;
 }

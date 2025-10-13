@@ -16,7 +16,6 @@
 .navBar__item {
 	width: 172px;
 	height: 40px;
-	font-family: 'Source Sans 3', sans-serif;
 	font-weight: 600;
 	font-size: 16px;
 	line-height: 24px;
@@ -34,8 +33,14 @@
 	box-shadow: var(--shadows-base);
 	color: var(--neutral-0);
 	fill: var(--neutral-0);
-	transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out,
-		box-shadow 0.2s ease-in-out, border 0.2s ease-in-out, outline 0.2s ease-in-out;
+}
+
+.navBar__icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 24px;
+	height: 24px;
 }
 
 .navBar__content:hover {
@@ -43,8 +48,9 @@
 	box-shadow: var(--shadows-base-hover);
 }
 
-.navBar__content:focus {
+.navBar__content:focus-visible {
 	background-color: var(--neutral-700);
-	border: 2px solid var(--neutral-0);
+	box-shadow: var(--shadows-base-hover);
+	outline-offset: 2px;
 	outline: 2px solid var(--neutral-900);
 }

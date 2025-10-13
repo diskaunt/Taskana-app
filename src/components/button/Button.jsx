@@ -1,9 +1,9 @@
-import React from 'react';
+
 import style from './button.module.css';
 
-const Button = ({newStyle, children, onClick}) => {
+const Button = ({newStyle, children, type, onClick}) => {
   return (
-      <button onClick={onClick} className={`${style.button} ${newStyle || null}`}>
+      <button type={type} onClick={onClick} className={`${style.button} ${newStyle || null}`}>
         {children || null}
       </button>
   );

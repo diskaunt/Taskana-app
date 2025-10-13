@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Logo from './illustrations/Logo';
 import EmptyTaskLight from './illustrations/EmptyTask';
 import NoteBookLight from './illustrations/NoteBook';

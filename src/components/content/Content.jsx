@@ -1,4 +1,4 @@
-import React from 'react';
+
 import IncomingTasks from '../../pages/incomingTasks/IncomingTasks';
 import style from './content.module.css';
 import NavBar from '../navBar/NavBar';

@@ -25,8 +25,14 @@
 	fill: var(--base-white);
 	box-shadow: var(--shadows-base);
 	background-color: var(--primary-400);
-	transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out,
-		border 0.2s ease-in-out, outline 0.2s ease-in-out;
+}
+
+.header__icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 24px;
+	height: 24px;
 }
 
 .header__button:hover {
@@ -34,9 +40,9 @@
 	box-shadow: var(--shadows-dark-hover);
 }
 
-.header__button:focus {
-	border: 2px solid var(--base-900);
-	outline: 2px solid var(--neutral-0);
+.header__button:focus-visible {
+	outline-offset: 2px;
+	outline: 2px solid var(--primary-0);
 }
 
 .header__button-pressed {

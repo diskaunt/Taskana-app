@@ -1,4 +1,4 @@
-import React from 'react';
+
 import style from './taskList.module.css';
 import Illustration from '../illustration/Illustration';
 

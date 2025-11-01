@@ -1,6 +1,6 @@
 
 import style from './statistic.module.css';
-import Illustration from '../illustration/Illustration';
+import Illustration from '@/components/illustration/Illustration';
 
 const Statistic = () => {
   return (

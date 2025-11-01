@@ -1,16 +1,18 @@
-
-import IncomingTasks from '../../pages/incomingTasks/IncomingTasks';
+import IncomingTasks from '@/pages/incomingTasks/IncomingTasks';
 import style from './content.module.css';
-import NavBar from '../navBar/NavBar';
-import SideBar from '../sideBar/SideBar';
+import NavBar from '@/components/navBar/NavBar';
+import SideBar from '@/components/sideBar/SideBar';
+import ThemeContext from '@/context/ThemeContext';
+import { useContext } from 'react';
 
 const Content = () => {
+  const { theme, toggleTheme } = useContext(ThemeContext);
   return (
-    <main className={style.content}>
+    <div className={`${style.content} ${theme === 'dark' ? 'darkTheme' : ''}`}>
       <NavBar />
       <IncomingTasks />
       <SideBar />
-    </main>
+    </div>
   );
 };
 

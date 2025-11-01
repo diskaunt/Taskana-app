@@ -1,6 +1,6 @@
 
 import style from './sideBar.module.css';
-import Statistic from '../statistic/Statistic';
+import Statistic from '@/components/statistic/Statistic';
 
 const SideBar = () => {
   return (

@@ -1,11 +1,10 @@
-
 import style from './logo.module.css';
-import Illustration from '../illustration/Illustration';
+import Illustration from '@/components/illustration/Illustration';
 
 const Logo = () => {
   return (
     <a href='/' className={style.logo}>
-      <Illustration name={'Logo'}/>
+      <Illustration name={'Logo'} />
     </a>
   );
 };

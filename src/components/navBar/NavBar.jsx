@@ -1,6 +1,6 @@
 
 import style from './navBar.module.css';
-import Icon from '../icon/Icon';
+import Icon from '@/components/icon/Icon';
 
 const NavBar = () => {
   return (
